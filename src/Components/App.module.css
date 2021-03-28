@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600&display=swap');
+
+.container {
+  box-sizing: border-box;
+  width: 400px;
+  margin: 5px auto;
+  padding: 40px 15px 20px;
+  text-align: center;
+
+  background-image: linear-gradient(
+    to right top,
+    #4d71a8,
+    #3d6194,
+    #2d5180,
+    #1d426d,
+    #09335b
+  );
+
+  border-radius: 5px;
+  border: 1px solid lightslategray;
+
+  box-shadow: 13px 19px 8px -4px rgba(65, 82, 96, 0.32);
+  font-family: 'Jost', sans-serif;
+}
+
+.title {
+  margin-top: 0;
+}

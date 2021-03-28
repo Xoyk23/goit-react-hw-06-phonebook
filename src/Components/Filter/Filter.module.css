@@ -1,0 +1,19 @@
+.container {
+  padding: 0 5px;
+  margin-bottom: 15px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  display: block;
+
+  outline: none;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+  transition: all 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
